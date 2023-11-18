@@ -43,11 +43,11 @@ namespace Calculate
             textBox1.Text = "0";
 
         }
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e) // = 
         {
             Button B = (Button)sender;
             D = B.Text;
-            N1 = textBox1.Text;
+            N1 = textBox1.Text; 
             n2 = true;
         }
         private void button21_Click(object sender, EventArgs e) // + - * /
